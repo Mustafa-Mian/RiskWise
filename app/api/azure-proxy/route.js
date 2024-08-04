@@ -4,8 +4,8 @@ import axios from 'axios';
 import { NextResponse } from 'next/server';
 
 export async function POST(req) {
-  const endpointUrl = 'API_KEY_HERE';
-  const authToken = 'SECRET_KEY_HERE';
+  const endpointUrl = process.env.NEXT_PUBLIC_API_ENDPOINT;
+  const authToken = process.env.NEXT_PUBLIC_AUTH_TOKEN;
 
   try {
     const requestBody = await req.json();
