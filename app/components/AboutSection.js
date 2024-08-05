@@ -37,7 +37,7 @@ const AboutPage = () => {
           RiskWise is built using Azure Machine Learning Services. Predictions are based on a classification ML model, which was trained on open-source data for the S&P500 stocks. The model has a 90% accuracy rating, meaning it will almost always predict stock risk correctly. This site makes calls to the Azure API using a Next.js proxy API with axios.
         </Typography>
         <Typography variant="body1" paragraph>
-          On the user-interface end, RiskWise takes advantage of frameworks like React and Next.js. React components make up fundamental pieces of the UI like the Navigation Bar at the top, the Prediction form, and even 'About' page you are on right now! Next.js's app routing is the reason why you can seamlessly transition between pages without any reloading. The entire GUI is made using Material-UI.
+          On the user-interface end, RiskWise takes advantage of frameworks like React and Next.js. React components make up fundamental pieces of the UI like the Navigation Bar at the top, the Prediction form, and even the About page you are on right now! Next.js&#39;s app routing is the reason why you can seamlessly transition between pages without any reloading. The entire GUI is made using Material-UI.
         </Typography>
       </Box>
 

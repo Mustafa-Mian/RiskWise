@@ -27,7 +27,7 @@ const HeroSection = () => {
         Investment Looks Tough.
       </Typography>
       <Typography variant="h5" component="p" gutterBottom color={'#FFFFFF'}>
-        But it doesn't have to be.
+        But it doesn&#39;t have to be.
       </Typography>
       <Link href={'/predictor'} passHref>
         <Button variant="contained" color="primary" size="large">
