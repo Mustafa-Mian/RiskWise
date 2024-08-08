@@ -1,5 +1,3 @@
-// app/api/azure-proxy/route.js
-
 import axios from 'axios';
 import { NextResponse } from 'next/server';
 

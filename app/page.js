@@ -3,6 +3,7 @@ import { useState, useEffect } from "react"
 import {Box} from '@mui/material'
 import ResponsiveAppBar from './components/ResponsiveAppBar';
 import LandingPage from './components/LandingPage';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     >
       <ResponsiveAppBar />
       <LandingPage />
+      <Analytics />
     </Box>
   );
 }
